@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 2000px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  transition: background-color 0.3s;
+  z-index: 1000;
+}
+
+nav.scrolled {
+  background-color: #005f99;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+section {
+  margin-top: 80px;
+  padding: 20px;
+}
